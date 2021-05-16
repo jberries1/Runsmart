@@ -1,5 +1,6 @@
 @import 'base/mixins';
 @import 'base/variables';
+@import 'base/animations.scss';
 .container {
 
     max-width: 950px;
@@ -17,6 +18,7 @@
 @import 'blocks/reviews';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
