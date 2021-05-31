@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+    .promo {
+        .header__contacts {
+            padding-right: 20px;
+            .button {
+                margin: 7px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            width: 80%;
+        }
+    }
+    .consultation {
+        text-align: center;
+        h2 {
+            text-align: center;
+        }
+        
+        .feed-form {
+            margin: 15px auto;
+        }
+    }
+    .footer__info {
+        width: 70%;
+        height: 70%;
+    }
+}
