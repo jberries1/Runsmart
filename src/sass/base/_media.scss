@@ -22,8 +22,54 @@
             margin: 15px auto;
         }
     }
+    //.footer__info {
+        //width: 70%;
+        //height: 70%;
+    //}
+}
+
+@media (max-width: 575px) {
+    .promo {
+        .header {
+            &__official {
+                font-size: 11px;
+            }
+        }
+            &__wrapper {
+                width: 94%;
+            }       
+    }
+    .advantages {
+        &__item {
+            max-width:203px;
+        }
+    }
+
+    .carousel {
+        &__inner {
+            width: 80%;
+        }
+    }
+    .catalog {
+        &__column {
+            max-width: 50%;
+        }
+        &__actual-price {
+            font-size: 18px;
+        }
+    }
+    .feed {
+        &__img {
+            padding-left: 10px;
+        }
+        &__text {
+            padding-right: 26px;   
+            text-align: justify;
+        }
+    }
     .footer__info {
-        width: 70%;
-        height: 70%;
+        width:360px;
     }
 }
+
+
